@@ -1,1 +1,14 @@
 # Proposal for final project AS.410.712.82.SP22
+
+I want to formulate a project around the application Rosetta. Rosetta is a modeling software for macromolecular structures. 
+I will be using their de novo structure prediction software. 
+For my final project I will pre run some amino acid sequence through the Rosetta de novo structure application. 
+The analysis will provide some information on structure prediction. The output will yield:
+    Pdb file- protein structural information
+    Silent file- proteins structural information in Rosetta format
+    Score file- scores
+    Log file- log of output
+I will have the analysis results saved inside a mysql table such as some information from pdb file and score file. 
+There will be a CSS/HTML/Javascript page that allows users to input protein of choice (from a selected few). 
+Then, the response will search through the file for results based off criteria’s such as score, rms, weights, residue, etc.. 
+It will auto populate results for whatever the user searched. 
