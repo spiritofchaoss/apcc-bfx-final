@@ -18,6 +18,8 @@
 
 **RSCB PDB Tool:** https://rscb.org
 
+**Understanding PDB Data Article:** https://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data/introduction
+
 ### Instructions
 
 You should type in which protein complex you would like to analyze (1USU or 1USV) under the protein search box. Note that the website will require you to input a protein complex while the other search parameters are optional.
@@ -27,7 +29,7 @@ You can choose and enter either a atom type or residue of interest to see all th
 
 * [atom id](https://ptable.com/)
 
-<img src="Images/example.jpg">
+<img src="Images/example.JPG">
 
 
 
