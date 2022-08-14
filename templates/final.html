@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/result_page.css" />
+	</head>
+	<body>
+		<table class="content-table" id='data'>
+		<h1> HSP90/AHA1 3D-Coordinate Protein Search Results </h1>
+		<p>
+			<input type=button value="Copy Results to Clipboard" onClick="copytable('data')">
+		<tr>
+			<th> Atom </th>
+			<th> Atom Number </th>
+			<th> Atom Type</th>
+                        <th> Residue </th>
+			<th> Chain </th>
+                        <th> Residue Number </th>
+			<th> X Coordinates </th>
+                        <th> Y Coordinates </th>
+			<th> Z Coordinates </th>
+                        <th> Occupancy </th>
+			<th> Beta Factor </th>
+                        <th> Element </th>
+			<th> Protein ID </th>
+
+
+		</tr>
+
+		 {% for r in results %}
+
+                <tr>
+                        <td>{{ r[0] }} </td>
+			<td>{{ r[1] }} </td>
+			<td>{{ r[2] }} </td>
+			<td>{{ r[3] }} </td>
+			<td>{{ r[4] }} </td>
+			<td>{{ r[5] }} </td>
+			<td>{{ r[6] }} </td>
+			<td>{{ r[7] }} </td>
+			<td>{{ r[8] }} </td>
+			<td>{{ r[9] }} </td>
+			<td>{{ r[10] }} </td>
+			<td>{{ r[11] }} </td>
+			<td>{{ r[12] }} </td>
+
+
+                </tr>
+
+                {% endfor %}
+
+		</table>
+	</body>
+</html>
+
+
