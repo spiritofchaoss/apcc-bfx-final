@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+	<header>
+		<div class="overlay" 
+		<meta charset="utf-8">
+		<title> 1USU 3D Coordinate Protein Search </title>
+		<link rel="stylesheet" type="text/css" href="css/final.css" />
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  		<link rel="stylesheet" href="/resources/demos/style.css">
+  		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  		<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+		<script src="js/final.js"></script>
+
+ 		<h1> HSP90/AHA1 3D-Coordinate Protein Search </h1>
+                <p> This search tool allows you to investigate and look further into the 3D structure of Co-chaperone Proteins HSP90 and AHA1. You can select a residue or atom type of interest and see all the possible locations in the model. </p>
+	</header>
+	<body>
+		<form name="3D_search" method="post" action="./search.cgi">
+			<label for="search_residue">Enter a Residue </label>
+       			<input name="search_residue" id="residue" type="text" value="" autofocus="autofocus" placeholder="e.g. ARG"/>
+
+			<label for="search_atom_type"> Enter a Atom Type </label>
+			<input name="search_atom_type" id="atom_type" type="text" value="" autofocus="autofocus" placeholder="e.g. CA"/>
+
+			<label for="search_p_id"> Protein </label>
+			<input name="search_p_id" id="protein_id" type="text" value="" autofocus="autofocus" placeholder="1USU or 1USV" required>
+
+			<button type="submit" id="submit" value="submit" name="submit"> Submit </button>
+			<button type="reset"> Clear</button>
+    		</form>
+		<footer>
+			<center>
+			<img src="https://cdn.rcsb.org/images/structures/us/1usu/1usu_assembly-1.jpeg"
+			     alt="1usu 3D model from https://www.rcsb.org/structure/1USU">
+			</center>
+			   <p><br><strong>Author:</strong><br/>
+			   <br>Jason Cheung </br>
+			   <br>AS.410.712.81.SU22 Advanced Practical Computer Concepts for Bioinformatics Final Project</br>
+			</p>
+			<p><br><strong> Sources:</strong></br>
+			   <a href="https://www.rcsb.org/structure/1USV"> https://www.rcsb.org/structure/1usv.com </a>
+			   <br> <a href="https://www.rcsb.org/structure/1usu"> https://www.rcsb.org/structure/1usu.com </a></p>
+		</footer>
+	</body>
+	</html>
+
