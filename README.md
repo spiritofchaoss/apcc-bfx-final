@@ -35,7 +35,7 @@ You can choose and enter either a atom type or residue of interest to see all th
 
 ### Demo
 
-Demo can be found here:
+Demo can be found here: https://github.com/spiritofchaoss/apcc-bfx-final/tree/main/Images/Demo
 
 
 
