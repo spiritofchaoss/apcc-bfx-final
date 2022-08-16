@@ -6,10 +6,9 @@
 
 **Apcc-bfx Final Project doing a small scale 3D-Coordinate Protein Search Tool for Protein Structure Complex 1USU and 1USV**
 
-**http://bfx3.aap.jhu.edu/jcheung9/final/search.html**
+**Search tool can be obtained here: http://bfx3.aap.jhu.edu/jcheung9/final/search.html**
 
-**Source code Can be obtained here:
-**
+**Source code can be obtained here: https://github.com/spiritofchaoss/apcc-bfx-final/blob/main/apcc-bfx-final.tar.gz**
 
 ## Getting Started
 
@@ -33,6 +32,10 @@ You can choose and enter either a atom type or residue of interest to see all th
 * [atom id](https://ptable.com/)
 
 <img src="Images/example.JPG">
+
+### Demo
+
+Demo can be found here:
 
 
 
